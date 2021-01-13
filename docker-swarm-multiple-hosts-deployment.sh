@@ -27,4 +27,4 @@ ssh root@10.0.0.3 "git clone https://github.com/SCCH-KVS/AVUBDI/ /home"
 ssh root@10.0.0.4 "git clone https://github.com/SCCH-KVS/AVUBDI/ /home"
 
 # Infrastructure Deployment to the Swarm
-ssh root@10.0.0.1 "docker stack deploy --compose-file /home/AVUBDI/docker/cogniplant/docker-compose.yml cogniplant"
+ssh root@10.0.0.1 "docker stack deploy --compose-file /home/AVUBDI/docker-compose.yml cogniplant"
