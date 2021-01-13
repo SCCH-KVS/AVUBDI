@@ -330,7 +330,7 @@ services:
       - SPARK_WORKER_MEMORY=${SPARK_WORKER_BATCH_MEMORY}
     volumes:
       - ./cogniplant/spark/applications:/opt/spark-apps
-      - ./cogniplantspark/data:/opt/spark-data
+      - ./cogniplant/spark/data:/opt/spark-data
     depends_on:
       - spark-master-batch
     deploy:
