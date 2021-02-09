@@ -1,6 +1,5 @@
-#!/bin/bash
-
-# NOTE: This file deploys the infrastructure services on the local system with an overlay network.
-# Make sure to have Docker installed and running! For Windows download Docker Desktop and switch to Linux containers.
-# If your are using Ubuntu or REHL distributions, you can use "docker-install-RHEL.sh" or "docker-install-Ubuntu.sh" 
-docker-compose up -d --build
+ # mounted volumes need r/w permissions for these directories. please use with caution and only in secured development environment.
+ # this enables various users on the same system to tinker with the live infrastructure configuration.
+ chmod -R a+rwX cogniplant/
+ 
+ docker-compose up -d --build
