@@ -141,33 +141,24 @@ Use the virtualization host ip address for connecting to the different UIs. This
 
 [Dashboard Portainer](http://127.0.0.1:9000/)
 
-![Portainer Dashboard](./images/Portainer.png)
-
 ### Kafka Monitoring UI (Kafdrop)
 
 [Kafka Monitoring UI](http://127.0.0.1:9001/)
 
-![Kafka Monitoring UI](./images/Kafdrop.png)
 
 ### Spark Stream & Batch Master UI
 
 [Spark Stream Master UI](http://127.0.0.1:9002/)
-[Spark Batch Master UI](http://127.0.0.1:9003/)
 
-![Spark UI](./images/Spark.png)
+[Spark Batch Master UI](http://127.0.0.1:9003/)
 
 ### Kafka Connect UI
 
 [Kafka Connect UI](http://127.0.0.1:9004/)
 
-![Kafka Connect UI](./images/KafkaConnectUI.png)
-
-
 ### Schema Registry UI
 
 [Schema Registry UI](http://127.0.0.1:9005/)
-
-![Schema Registry UI](./images/SchemaRegistryUI.png)
 
 ### Grafana
 
