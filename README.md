@@ -1,7 +1,7 @@
 # AVUBDI
 Github Repository for a Versatile Usable Big Data Infrastructure (AVUBDI) in Docker.
 
-## Developement Environment
+## Development Environment
 
 * Dell XPS 7590
 * Intel Core i7-9750H (6 Cores)
